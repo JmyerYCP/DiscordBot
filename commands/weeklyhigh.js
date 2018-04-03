@@ -10,7 +10,7 @@ module.exports = {
 				});
 		}
 		catch(error) {
-			return message.reply('ya dun fked up m8');
+			return message.reply('oops');
 		}
 
 	},

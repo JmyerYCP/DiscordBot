@@ -9,11 +9,11 @@ module.exports = {
 					for (const key in response.data) {
 						reply += key + ': ' + response.data[key] + '\n';
 					}
-					message.channel.send(reply);
+					return message.channel.send(reply);
 				});
 		}
 		catch(error) {
-			return message.reply('ya dun fked up m8');
+			return message.reply('oops');
 		}
 
 	},
